@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Download } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
           <img
-            src="/images/profile-image.jpeg"
+            src="/hero.jpeg"
             alt="Profile"
             className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-gray-200 dark:border-gray-700 shadow-lg"
           />

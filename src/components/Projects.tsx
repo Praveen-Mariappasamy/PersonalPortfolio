@@ -3,6 +3,14 @@ import { ExternalLink, Github, Calendar } from 'lucide-react';
 
 const projects = [
   {
+    title: 'AI Shopping Agent',
+    description: 'Currently working on an AI shopping agent that can assist on your shopping demands',
+    image: '/ai-agent.jpg',
+    technologies: ['ReactJS', 'Tailwind CSS', 'Python', 'NodeJS', 'OpenAI API'],
+    githubUrl: '',
+    date: '2025'
+  },
+  {
     title: 'Friend Zone',
     description: 'A complete social media platform where users can post images, like, comment, follow other users and message each others in real time where each post is analysed via ML. User found to be depressed are supported by a chatbot.',
     image: 'https://images.pexels.com/photos/1036804/pexels-photo-1036804.jpeg',
@@ -39,7 +47,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="pb-20 px-4 sm:px-6 lg:px-8">
+    <section id="projects" className="pb-20 pt-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">

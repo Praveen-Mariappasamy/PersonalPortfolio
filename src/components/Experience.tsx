@@ -21,7 +21,7 @@ const experiences = [
     period: '2024 - 2025',
     description: 'Focused on creating engaging user experiences with React and modern CSS. Worked closely with UX designers to implement interactive prototypes.',
     achievements: [
-      'Developed interactive components used across 20+ projects',
+      'Worked on interactive components used across 20+ projects',
       'Improved website loading speed by 50% through optimization',
       `Been a part of accessibility core team and improved finance group apps' accessibility`
     ]
@@ -30,7 +30,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="pb-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-900/50">
+    <section id="experience" className="pb-20 pt-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-900/50">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
