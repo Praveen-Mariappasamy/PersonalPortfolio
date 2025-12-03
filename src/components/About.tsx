@@ -10,9 +10,9 @@ const skills = [
   },
   {
     icon: <Zap size={24} />,
-    title: 'Performance',
-    description: 'Optimized solutions for speed and scalability',
-    technologies: ['Webpack', 'CI/CD']
+    title: 'Performance & Deployment',
+    description: 'Optimized solutions for speed and scalable deployments',
+    technologies: ['Webpack', 'CI/CD', 'CDN']
   },
   {
     icon: <Users size={24} />,

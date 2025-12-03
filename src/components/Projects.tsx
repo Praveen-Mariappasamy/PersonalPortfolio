@@ -1,18 +1,18 @@
 import React from 'react';
-import { ExternalLink, Github, Calendar } from 'lucide-react';
+import { Github, Calendar } from 'lucide-react';
 
 const projects = [
   {
-    title: 'AI Shopping Agent',
-    description: 'Currently working on an AI shopping agent that can assist on your shopping demands',
+    title: 'Foresee haircut with AI',
+    description: `Consumed gemini-2.5-flash-image from Google, popularly called the NanoBanana and predicted how a person would look with any chosen hairstyle using AI/ML inference. Built a user-friendly UI using React, stored user credentials and the last uploaded reference image in MySQL, developed secure login/signup using JWT authentication and deployed it with Vercel.`,
     image: '/ai-agent.jpg',
-    technologies: ['ReactJS', 'Tailwind CSS', 'Python', 'NodeJS', 'OpenAI API'],
-    githubUrl: '',
+    technologies: ['ReactJS', 'MySQL', 'NanoBanana', 'NodeJS', 'ExpressJS'],
+    githubUrl: 'https://github.com/Praveen-Mariappasamy/Hairstyle-Predictor',
     date: '2025'
   },
   {
     title: 'Friend Zone',
-    description: 'A complete social media platform where users can post images, like, comment, follow other users and message each others in real time where each post is analysed via ML. User found to be depressed are supported by a chatbot.',
+    description: `Created a social media web application capable of analysing user sentiments and support mental well-being using an inbuilt chatbot created using DialogFlow. Integrated the sentiment analysis model with an optimised dataset to boost its F-Score to 0.9. Made use of Socket.IO to implement real-time messaging between users`,
     image: 'https://images.pexels.com/photos/1036804/pexels-photo-1036804.jpeg',
     technologies: ['ReactJS', 'MongoDB', 'ExpressJS', 'NodeJS', 'Python', 'NLP', 'Socket.io'],
     githubUrl: 'https://github.com/Praveen-Mariappasamy/Twitter',
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     title: 'E-Commerce Store',
-    description: 'A full-featured e-commerce platform built with React, Express.js, and MongoDB. Features include user authentication, payment processing, inventory management, and admin dashboard.',
+    description: `A full-fledged e-commerce platform using React, NodeJS, ExpressJS, and MongoDB, built core functionalities such as user authentication, and the complete storefront activities that include signup, cart, wish-list and checkout. Integrated Razorpay for secure payment processing and built robust inventory management and admin dashboard modules, ensuring smooth store operations and streamlined workflow for administrators.`,
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
     technologies: ['ReactJS', 'NodeJS', 'MongoDB', 'ExpressJS'],
     githubUrl: 'https://github.com/Praveen-Mariappasamy/ShopNOW',
@@ -36,11 +36,10 @@ const projects = [
   },
   {
     title: 'Business Portfolio',
-    description: `Started as something to help my father's business to get online presence and so this is always so special to me.`,
+    description: `A ReactJS based portfolio site for a company, to gain online presence and drive sales. Deployed through Vercel and configured the CDN to optimise static asset delivery and improve performance and security using Cloudflare’s reverse proxy.`,
     image: 'https://images.pexels.com/photos/162539/architecture-building-amsterdam-blue-sky-162539.jpeg',
     technologies: ['ReactJS', 'Tailwind CSS', 'Deployment', 'CloudflareCDN'],
     githubUrl: 'https://github.com/Praveen-Mariappasamy/MSF-Portfolio',
-    liveUrl: 'https://ms-forms.shop/',
     date: '2023'
   }
 ];
@@ -80,17 +79,6 @@ export default function Projects() {
                   >
                     <Github size={20} />
                   </a>
-                  {project.liveUrl && (
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 bg-white rounded-full text-gray-900 hover:bg-gray-100 transition-colors duration-200"
-                      aria-label="View live site"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
-                  )}
                 </div>
               </div>
 

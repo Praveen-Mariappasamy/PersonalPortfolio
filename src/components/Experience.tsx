@@ -7,11 +7,10 @@ const experiences = [
     company: 'Zoho Corporation',
     location: 'Chennai, India',
     period: '2025 - Present',
-    description: 'Focused on creating engaging user experiences with EmberJS. Worked on ZOHO Commerce and get used to develop liquid based themes and making it customizable bringing up realtime stores',
     achievements: [
-      'Developed interactive components used across 20+ themes',
-      'Improved load times, performance and CI/CD pipelines',
-      'Worked on more than 15+ features and enhancements for ZOHO Commerce'
+      'Worked on 20+ features and enhancements, including the theme editor, admin application and theme components for ZOHO Commerce',
+      'Reduced load time by several milliseconds by implementing multiple optimisations, including the use of Service Workers',
+      'Optimised CI/CD pipelines in a repository that powers around 15 core finance applications reducing time taken for certain jobs by 4 - 5 minutes'
     ]
   },
   {
@@ -19,11 +18,10 @@ const experiences = [
     company: 'Zoho Corporation',
     location: 'Chennai, India',
     period: '2024 - 2025',
-    description: 'Focused on creating engaging user experiences with React and modern CSS. Worked closely with UX designers to implement interactive prototypes.',
     achievements: [
-      'Worked on interactive components used across 20+ projects',
-      'Improved website loading speed by 50% through optimization',
-      `Been a part of accessibility core team and improved finance group apps' accessibility`
+      'Engineered interactive components used across 20+ themes',
+      `Part of an accessibility core team and improved finance group apps' accessibility to ensure compliance`,
+      'Implemented pseudo-localisation to ensure UI consistency across languages that are supported'
     ]
   },
 ];
@@ -70,10 +68,6 @@ export default function Experience() {
                       </div>
                     </div>
                   </div>
-                  
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    {exp.description}
-                  </p>
                   
                   <div>
                     <h4 className="font-medium text-gray-900 dark:text-white mb-2">
